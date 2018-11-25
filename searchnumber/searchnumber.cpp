@@ -6,23 +6,23 @@ int mn;
 int n;
 int f;
 mn = 67;
-cout <<"Давайте сыграем в игру. Я загадываю число, Вы угадываете, идёт? Уточнение, Вы можете писать только число. Ну чтож, начнём!Пишите число:"<<endl;
-cin >> n;
+cout <<"Let's play the game. I think up the number, you guess, goes? Clarification, you can write only a number. Well, let's start! Write the number:"<<endl;
+cin>>n;
 while(n != mn)
     {
-    cout<<"Не угадали!"<<endl;
+    cout<<"It's not true!"<<endl;
     if(n < mn )
         {
-        cout<<"Загаданное мною число больше..."<<endl;
-        cout<<"Попробуйте ещё раз.Введите число:"<<endl;
+        cout<<"My number is bigger..."<< endl;
+        cout<<"Try again:"<<endl;
         }
     if(n > mn)
         {
-        cout<<"Загаданное мною число меньше..."<<endl;
-        cout<<"Попробуйте ещё раз. Введите число:"<<endl;
+        cout<<"My number is smaller..."<<endl;
+        cout<<"Try again:"<<endl;
         }
         cin >> n;
     }   
-cout<<"Хм... Ты угадал, мои поздравления."<<endl;
+cout<<"You are right!"<<endl;
 return 0;
 }
