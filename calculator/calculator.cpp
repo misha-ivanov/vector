@@ -36,5 +36,6 @@ if (t == '/')
         cout<<"Result: " <<number3<<endl;
     }
 }
+//text
 }
  
